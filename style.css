@@ -1,12 +1,10 @@
-{
-    border: 2px solid red;
-}
-
 
 body {
     margin: 0;
     border: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .header,
@@ -50,7 +48,7 @@ a {
     display: flex;
     justify-content: center;
     padding-bottom: 90px;
-    padding-top: 90px;
+    padding-top: 55px;
 }
 
 .hero-block {
@@ -87,7 +85,8 @@ button {
 }
 
 .info-container {
-    padding: 100px;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 .info-header {
     font-size: 20px;
@@ -99,7 +98,7 @@ button {
 .info-panels {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
 }
 
 .info-words {
@@ -135,15 +134,49 @@ button {
     text-align: right;
 }
 
+.cta-container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px
+    
+}
 
+.cta-box {
+    width: 1200px;
+    color: white;
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #3882F6;
+    gap: 600px;
+    border-radius: 15px;
+}
 
+.cta-box {
+    font-size: 25px;
+}
 
+.cta-button {
+    font-size: 16px;
+   font-weight: 700;
+    background-color: #3882F6;
+    border-color: white;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding: 8px;
+    border-radius: 6px;
+}
 
-
-
-
-
-
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
 
 a {
     text-decoration: none;
@@ -157,8 +190,11 @@ border-radius: 25px;
 }
 
 .panel-img {
-    height: 175px;
-    width: 175px;
+    height: 225px;
+    width: 225px;
 border-radius: 25px;
 }
 
+button:hover {
+    transform: scale(1.05);
+  }
